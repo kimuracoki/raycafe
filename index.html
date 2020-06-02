@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RAYCAFE HOME</title><!-- ブラウザのタブに反映されます。 -->
+    <link rel="stylesheet" type="text/css" href="./index.css"> <!-- 指定のCSSを読み込んでいます。 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <!-- 上の一文はFont Awesome というものを使いますよ。という宣言（読み込み）みたいなものです。
+        興味があったら使うといいです。
+
+        下の要素を試しにどこかbody内に貼り付けてみて、スマイルマークが表示されたら成功です。
+
+        <i class="far fa-smile-wink"></i> 
+
+        サイズが小さいかもしれませんね。それはやはりCSSで調整すべきですね。
+
+        他のアイコンは下のURLからとってこれます。
+        使いたいアイコンをクリックして上の "<i class ～" みたいなものをコピーしてくるだけでOKです。
+
+        https://fontawesome.com/icons?d=gallery
+
+    -->
+</head>
+
+<body>
+    <!-- ヘッダー他のページと共通のものをつかうと統一感あります。-->
+    <header style="background-image: url(bg_shop.jpg);">
+        <!-- ナビゲーションバーを配置してあります。なぜ横にばらけて並んで表示されるかはCSSをみるしかないですね。 --><i class="far fa-smile-wink"></i>
+        <nav>
+            <i class="fas fa-coffee">RAYCAFE</i><!-- ちなみに今回のホームロゴはFont Awesome を使っています。 -->
+            <a class="top" href="index.html">Top</a>
+            <a href="menu.html">Menu</a>
+            <a class="info" href="#">Info</a><!-- Infoページは作ってません。どんなページにしたらよいだろう -->
+        </nav>
+        <div class="header-comment">
+            <h2>Concept</h2>
+            <!-- style="" を使ってCSSを反映していますね。良くない例だと思います。どうしたら良かったのでしょう。 -->
+            <p style="font-weight: bold;">
+                自然の素材を活かしたお菓子作りをしております。みなさまに喜んで頂きたい一心でお代は頂いておりません。故にどのようなものが出てきてもノークレームノーリターンでお願いします。当店でお食事されることはお客様の自己責任でお願いします。
+            </p>
+        </div>
+    </header>
+    <!-- ヘッダーとフッターの間のコンテンツがないのでただの空白です。見栄えが悪いですね。どんな情報を載せますか。 -->
+    <div style="min-height: 500px;">
+        <!-- 空のコンテンツ -->
+    </div>
+    <!-- フッターも同様に他のページと共通のものをつかうと統一感ありますね。-->
+    <footer>
+        <p>Menu</p>
+    </footer>
+</body>
+
+</html>
